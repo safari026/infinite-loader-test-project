@@ -1,0 +1,23 @@
+.cardBody{
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    padding: 20px;
+    background-color: #0000;
+    text-align: center;
+}
+.cardBody:hover {
+    transform: translateY(-10px);
+  }
+.cardTitle{
+    margin-bottom: 10px;
+}
+.cardText{
+    margin-bottom: 20px;
+}
+.cardImg{
+    max-width: 200px;
+    height: 300px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,26 @@
+.greeting{
+    background-color: var(--bg-welcome-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    & .greetingTitle{
+        color:var(--color-text-white);
+        font-family:  'Paytone One', sans-serif;
+        font-size: 5rem;
+        line-height: 100px;
+    }
+}
+
+.cardGrid{
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;   
+}
+.cardLoader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

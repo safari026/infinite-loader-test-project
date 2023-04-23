@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Source+Sans+Pro&display=swap');
+:root{
+  --bg-color-white:#fff;
+  --color-text-white:#fff;
+  --color-primary-link:#007bff;
+  --color-text-black:#333;
+  --bg-welcome-color:#262627;
+  --color-loader:#9880ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:  'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--bg-color-white);
+  color: var(--color-text-black);
+}
+
+
+a {
+  color: var(--color-primary-link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.17rem;
+}
+
+
+  

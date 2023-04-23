@@ -1,0 +1,86 @@
+.dotElastic {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--color-loader);
+    color: var(--color-loader);
+    animation: dot-elastic 1s infinite linear;
+    &:after {
+        left: 35px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: var(--color-loader);
+        color: var(--color-loader);
+        animation: dot-elastic-after 1s infinite linear;
+      }
+      &:before {
+        left: -35px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: var(--color-loader);
+        color: var(--color-loader);
+        animation: dot-elastic-before 1s infinite linear;
+      }
+      &:before, &:after{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+      }
+
+  }
+  
+  @keyframes dot-elastic-before {
+    0% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(1, 1.5);
+    }
+    50% {
+      transform: scale(1, 0.67);
+    }
+    75% {
+      transform: scale(1, 1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  @keyframes dot-elastic {
+    0% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1, 1.5);
+    }
+    75% {
+      transform: scale(1, 1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  @keyframes dot-elastic-after {
+    0% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1, 0.67);
+    }
+    75% {
+      transform: scale(1, 1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
