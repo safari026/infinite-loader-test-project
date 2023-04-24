@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 
-import StyledHeader from '../../shared/UI/StyledHeader/StyledHeader'
+import StyledHeader from '@/shared/UI/StyledHeader/StyledHeader'
 
-import Loader from '../../shared/UI/Loader/Loader'
+import Loader from '@/shared/UI/Loader/Loader'
 import style from './BeerPage.module.scss'
-import useFetch from '../../entities/beer/hooks/useFetch'
-import Card from '../../entities/beer/Card/Card'
+import useFetch from '@/entities/beer/hooks/useFetch'
+import Card from '@/entities/beer/Card/Card'
 
 const BeerPage = () => {
     const [page, setPage] = useState<number>(1)

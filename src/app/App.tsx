@@ -1,4 +1,4 @@
-import BeerPage from '../pages/BeerPage'
+import BeerPage from '@/pages/BeerPage'
 
 function App() {
     return <BeerPage />

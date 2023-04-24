@@ -1,5 +1,5 @@
 import style from './Card.module.scss'
-import StyledHeader from '../../../shared/UI/StyledHeader/StyledHeader'
+import StyledHeader from '@/shared/UI/StyledHeader/StyledHeader'
 
 export type DataItem = {
     id: string
